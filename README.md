@@ -28,12 +28,18 @@ $ cd jokenpo-game
 
 <h3>Como o jogo foi feito ?</h3>
 
-<p> 1 - Inicialmente, criei uma classe <i>JokenpoApplication.java</i> com o método <i>main()</i> responsável por inicializar o jogo e  
-  capturar os valores de entrada dos jogadores como nome e escolha (pedra, papel ou tesoura). </p>
-<p> 2 - Logo após crei dois enums: </p>
-<p>&nbsp - <i>PlayerChoice.java</i> que eu utilizei para classificar as escolhas possíveis que um usuário pode optar.</p>
-<p>&nbsp - <i>Result.java</i> que eu utilizei para classificar os resultados possíveis para declarar o fim de jogo.</p>
+- Inicialmente, criei uma classe <i>JokenpoApplication.java</i> com o método <i>main()</i> responsável por inicializar o jogo e  
+  capturar os valores de entrada dos jogadores como nome e escolha (pedra, papel ou tesoura). 
+- 2 - Logo após crei dois enums: 
+&nbsp - <i>PlayerChoice.java</i> que eu utilizei para classificar as escolhas possíveis que um usuário pode optar.
+&nbsp - <i>Result.java</i> que eu utilizei para classificar os resultados possíveis para declarar o fim de jogo.
 <p> 3 - Criei a classe <i>Player.java</i> para tratar das informações do jogador (nome, escolha).</p> 
 <p> 4 - A classe <i>JokenpoRules.java</i> foi criada para realizar a parte lógica e para saber o resultado final do jogo, mediante as escolhas dos jogadores.</p>
 <p> 5 - Por fim, a classe <i>JokenpoRulesTest.java</i> eu criei para realizar os testes da lógica presente em <i>JokenpoRules.java</i>. Procurei realizar esses testes de forma bem simples e clara, a fim de verificar se as regras do Jokenpo foram implementadas corretamente e saber se o resultado final do jogo está correto.<i>
+  
+<h3>Linguagens e frameworks</h3>
+ - Java 11
+ - JUnit 5
+ - Maven
+  
 
