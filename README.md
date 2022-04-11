@@ -16,7 +16,7 @@
 
  ```bash
 # Clonar o repositório
-$ git clone https://github.com/matheusmarks/jokenpo-game
+$ git clone https://github.com/matheusmarks/jokenpo-game.git
 
 # Ir para a pasta do projeto
 $ cd jokenpo-game
