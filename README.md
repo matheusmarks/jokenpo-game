@@ -9,6 +9,7 @@
 
 
 <h3>Requisitos</h3>
+
 - Ter a versão do java jdk 11 instalado em sua máquina.
 - Possuir alguma IDE que seja possível executar código java e seus respectivos testes. Ex: IntelliJ, Eclipse, VsCode, etc.
 
@@ -38,8 +39,9 @@ $ cd jokenpo-game
 - Por fim, a classe <i>JokenpoRulesTest.java</i> eu criei para realizar os testes da lógica presente em <i>JokenpoRules.java</i>. Procurei realizar esses testes de forma bem simples e clara, a fim de verificar se as regras do Jokenpo foram implementadas corretamente e saber se o resultado final do jogo está correto.
   
 <h3>Linguagens e frameworks</h3>
+
 - Java 11
-- JUnit 5
+- Junit 5
 - Maven
   
 
