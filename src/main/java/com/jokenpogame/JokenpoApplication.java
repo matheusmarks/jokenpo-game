@@ -7,6 +7,10 @@ import com.jokenpogame.entity.Player;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * @author Matheus Marques
+ */
+
 public class JokenpoApplication {
 
     public static void main(String[] args) {

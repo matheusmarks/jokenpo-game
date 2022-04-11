@@ -4,6 +4,9 @@ import com.jokenpogame.enums.PlayerChoice;
 import com.jokenpogame.enums.Result;
 import com.jokenpogame.entity.Player;
 
+/**
+ * @author Matheus Marques
+ */
 
 public class JokenpoRules {
 
@@ -17,6 +20,7 @@ public class JokenpoRules {
 
         printResultMessage(gameResult, playerOne, playerTwo);
     }
+
 
     public Result comparePlayerChoices(PlayerChoice playerOneChoice, PlayerChoice playerTwoChoice) {
         if(playerOneChoice.equals(playerTwoChoice)) {

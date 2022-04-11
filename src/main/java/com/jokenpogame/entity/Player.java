@@ -4,6 +4,10 @@ import com.jokenpogame.enums.PlayerChoice;
 
 import java.io.Serializable;
 
+/**
+ * @author Matheus Marques
+ */
+
 public class Player implements Serializable {
 
     private String playerName;

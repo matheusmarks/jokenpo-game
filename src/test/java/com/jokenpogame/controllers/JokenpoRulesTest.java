@@ -8,6 +8,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * @author Matheus Marques
+ */
+
 class JokenpoRulesTest {
 
     private static JokenpoRules jokenpoRules;
